@@ -1,0 +1,19 @@
+.profile-card {
+  
+}
+
+.profile-header-image {
+  background-image: url('imgcvmaykol.jpg');
+  background-size: cover;
+}
+
+.mat-card-avatar {
+    border-radius: 50%;
+    flex-shrink: 0;
+    height: 100px;
+    width: 100px;
+}
+
+p{
+	padding: 0 16px;
+}
