@@ -1,3 +1,6 @@
+
+[Live Demo Here!](https://puricamaykol.github.io/angularResume/dist)
+
 What's this about?
 ------------------
 
@@ -10,7 +13,7 @@ This Angular 4 app, features my résumé in material design. There's a component
  This component makes use of these:
 
 ```html
-	<profile></profile>
+    <profile></profile>
     <education></education>
     <languages></languages>
     <skills></skills>
