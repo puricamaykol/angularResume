@@ -3,14 +3,7 @@
         <md-card-title>
             <h3>Jobs</h3></md-card-title>
     </md-card-header>
-    <md-card-content>
-        <p>Solcuiones Integrales GIS (Septiembre 2016 - Actualidad) Desarrollador Web Full Stack. Sistemas de Geolocalización</p>
-        <p>Soluciones AST (Febrero 2015 – Septiembre 2016) Desarrollador Web Full Stack y Móvil. Líder de proyectos</p>
-        <p>Consultores Micorp. (Noviembre 2014 - Febrero 2015) Desarrollador Web Full Stack</p>
-        <p>IT Media Comtech C.A. (Julio 2014 - Noviembre 2014) Desarrollador Web</p>
-        <p>Prácticas Universitarias (Febrero 2014- Julio 2014) Desarrollador Web</p>
-        <p>Prácticas Universitarias (Febrero 2014- Julio 2014) Desarrollador Web</p>
-        <p>Corporación KCP S.A (Julio 2013 - Octubre 2013) Desarrollador Web</p>
-        <p>Trabajo Freelancer Empresa Ventas Center Point (Junio 2012 - Diciembre 2012) Desarrollador Web</p>
+    <md-card-content *ngFor="let item of experiences">
+        <p>{{item.job}} {{item.position}}. {{item.remarkableAchievement}}</p>
     </md-card-content>
 </md-card>

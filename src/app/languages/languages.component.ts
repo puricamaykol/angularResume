@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'languages',
   templateUrl: './languages.component.html',
   styleUrls: ['./languages.component.css']
 })
-export class LanguagesComponent implements OnInit {
+export class LanguagesComponent {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  @Input() languages: {}[];
+  
 
 }

@@ -2,7 +2,7 @@
     <md-card-header>
         <md-card-title><h3>Educación</h3></md-card-title>
     </md-card-header>
-    <md-card-content>
-                <p> UNEXPO Luis Caballero Mejías - Ingeniero de sistemas</p>
+    <md-card-content *ngFor="let item of experiences">
+                <p> {{item.institute}}-{{item.degree}} ({{item.country}}). {{item.timeToComplete}}.</p>
     </md-card-content>
 </md-card>

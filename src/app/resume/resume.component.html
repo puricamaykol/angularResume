@@ -3,12 +3,18 @@
 </md-toolbar>
 
 <md-card>
-	<profile></profile>
-	<education></education>
-	<languages></languages>
-	<skills></skills>
-	<jobs></jobs>
+	<profile
+	 [firstName]="_yourResume.profile.firstName"
+	 [lastName]="_yourResume.profile.lastName"
+	 [description]="_yourResume.profile.description"
+	 [email]="_yourResume.profile.email"
+	 [phone]="_yourResume.profile.phone"
+	 [linkedin]="_yourResume.profile.linkedin"
+	 [github]="_yourResume.profile.github"
+	 [link]="_yourResume.profile.link"
+	 ></profile>
+	<skills [skills]="_yourResume.skills"></skills>
+	<education [experiences]="_yourResume.education"></education>
+	<languages [languages]="_yourResume.languages"></languages>
+	<jobs [experiences]="_yourResume.jobs"></jobs>
 </md-card>
-
-
-

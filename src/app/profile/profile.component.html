@@ -1,18 +1,15 @@
 <md-card class="profile-card">
-  <md-card-header>
-    <md-card-title><h3>Maykol Purica</h3></md-card-title>
-    <md-card-subtitle>Ingeniero de sistemas / Desarrollador de Soluciones de Software</md-card-subtitle>
-  </md-card-header>
-  <img md-card-md-image class="profile-header-image">
-  <md-card-content>
-    <p>
-      email: puricamaykol@gmail.com</p>
-      <p>tlf: +58 424 281 77 02</p>
-     <p> linkedIn: <a href="https://ve.linkedin.com/in/maykolpurica">https://ve.linkedin.com/in/maykolpurica</a></p>
-     <p> github: <a href="https://github.com/puricamaykol?tab=repositories">Algunas cosas en las que he estado trabajando.</a>
-    </p>
-    <p> CV (PDF): <a href="https://drive.google.com/open?id=0B3urn8O150VwbV9RLUNmYlUyb2M">https://drive.google.com/open?id=0B3urn8O150VwbV9RLUNmYlUyb2M</a>
-    </p>
-  </md-card-content>
+    <md-card-header>
+        <md-card-title>
+            <h3>{{firstName}} {{lastName}}</h3></md-card-title>
+        <md-card-subtitle>{{description}}</md-card-subtitle>
+    </md-card-header>
+    <img md-card-md-image class="profile-header-image">
+    <md-card-content>
+        <p>{{email}}</p>
+        <p>{{phone}}</p>
+        <p><a href="{{linkedin}}">{{linkedin}}</a></p>
+        <p><a href="{{github}}">{{github}}</a></p>
+        <p><a href="{{_link.url}}">{{_link.title}}</a></p>
+    </md-card-content>
 </md-card>
-

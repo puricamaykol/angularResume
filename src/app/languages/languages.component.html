@@ -1,9 +1,8 @@
-<md-card class="skills-card">
+<md-card class="languages-card">
     <md-card-header>
         <md-card-title><h3>Idiomas</h3></md-card-title>
     </md-card-header>
-    <md-card-content>
-            <p>Castellano - Nativo</p>
-            <p>inglés - Intermedio</p>
+    <md-card-content *ngFor="let item of languages">
+            <p>{{item.language}} - {{item.level}}</p>
     </md-card-content>
 </md-card>

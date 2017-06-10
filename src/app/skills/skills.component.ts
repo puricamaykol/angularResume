@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'skills',
-  templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+	selector: 'skills',
+	templateUrl: './skills.component.html',
+	styleUrls: ['./skills.component.css']
 })
-export class SkillsComponent implements OnInit {
+export class SkillsComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+	constructor() { }
+	progressBar =  {
+	  	color: 'primary',
+		mode: 'determinate'
+	};
+  @Input() skills: { skill: string, level: number };
 }

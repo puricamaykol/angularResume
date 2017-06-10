@@ -7,3 +7,9 @@
 p{
 	padding: 0 16px;
 }
+
+.mat-card {
+	margin-top: 3px;
+	overflow-y: scroll; 
+	height:400px;
+}
