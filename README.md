@@ -80,8 +80,9 @@ Just go around and take a look and check my github projects and linkedin,
 The road ahead
 --------------
 
- - Parse all data from an Object Literal
+ - ~~Parse all data from an Object Literal~~
  - Allow the readers to switch between English and Spanish
- - Add Bar representing level of expertise to skills component 
+ - ~~Add Bar representing level of expertise to skills component~~ 
+ - Add animations to section cards when they load 
 
 
