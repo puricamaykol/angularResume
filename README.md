@@ -52,9 +52,9 @@ This Angular 4 app, features my résumé in material design. There's a component
  Lets take a look inside <resume> component's template:
 
 ```html
-    <md-toolbar color="primary">
-  		<span>Mi hoja de vida</span>
-	</md-toolbar>
+<md-toolbar color="primary">
+  	<span>Mi hoja de vida</span>
+</md-toolbar>
 <md-card>
 	<profile
 	 [firstName]="_yourResume.profile.firstName"
