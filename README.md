@@ -49,7 +49,18 @@ This Angular 4 app, features my résumé in material design. There's a component
     <resume [yourResume]="resumeObject"></resume>
 ```
 
- Lets take a look inside <resume> component's template:
+ Lets take a look inside resume component:
+```javascript
+@Input()
+  set yourResume(yourResume: IResume) {
+    this._yourResume.profile = yourResume.profile;
+    this._yourResume.education = yourResume.education;
+    this._yourResume.languages = yourResume.languages;
+    this._yourResume.skills = yourResume.skills;
+    this._yourResume.jobs = yourResume.jobs;
+
+  }
+```
 
 ```html
 <md-toolbar color="primary">
