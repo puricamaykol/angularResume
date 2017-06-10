@@ -17,7 +17,7 @@ This Angular 4 app, features my résumé in material design. There's a component
 		  linkedin: "https://www.linkedin.com/in/maykolpurica/",
 		  github: "https://github.com/puricamaykol?tab=repositories",
 		  link: { title: "Obtener mi CV en PDF", 
-		  url: "https://drive.google.com/open?id=0B3urn8O150VwbV9RLUNmYlUyb2M" },
+		  url: "https://drive.google.com/open?id=0B3urn8O150VwTTUtcDdmUzBtem8" },
 	  },
 	  education: [{
 		  institute: "UNEXPO",
