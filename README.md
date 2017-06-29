@@ -95,5 +95,6 @@ The road ahead
  - Allow the readers to switch between English and Spanish
  - ~~Add Bar representing level of expertise to skills component~~ 
  - Add animations to section cards when they load 
+ - Add type checking at run time in order to check the interface of the object literal passed to resume component 
 
 
